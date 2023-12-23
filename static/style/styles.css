@@ -1,0 +1,143 @@
+body {
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #707070;
+}
+
+@media screen and (max-width: 48em) {
+  .row-offcanvas {
+      position: relative;
+      transition: all 0.25s ease-out;
+  }
+
+  .row-offcanvas-left .sidebar-offcanvas {
+      left: -33%;
+  }
+
+  .row-offcanvas-left.active {
+      left: 33%;
+      margin-left: -6px;
+  }
+
+  .sidebar-offcanvas {
+      position: absolute;
+      top: 0;
+      width: 33%;
+      height: 100%;
+  }
+}
+
+@media screen and (max-width: 34em) {
+  .row-offcanvas-left .sidebar-offcanvas {
+      left: -45%;
+  }
+
+  .row-offcanvas-left.active {
+      left: 45%;
+      margin-left: -6px;
+  }
+
+  .sidebar-offcanvas {
+      width: 45%;
+  }
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(250, 250, 250, 0.904);
+  background-color: #fff;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-block {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #cecece;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  color: #555;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.display-1 a {
+  text-decoration: none;
+  color: #3498db;
+}
+
+.leftMenus a {
+  font-size: 16px;
+  color: #FEFAE0;
+  background-color: #5F6F52;
+}
+
+/* Additional styles for buttons and form elements */
+.btn-primary {
+  background-color: #5F6F52;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #A9B388;
+}
+
+.btn-success{
+  background-color: #5F6F52;
+}
+
+.btn-success:hover {
+  background-color: #A9B388;
+}
+
+.btn-warning{
+  background-color: #5F6F52;
+  color: #FEFAE0;
+}
+
+.btn-warning:hover {
+  background-color: #A9B388;
+  color: #FEFAE0;
+}
+
+.btn-info{
+  background-color: #5F6F52;
+  color: #FEFAE0;
+}
+
+.btn-info:hover {
+  background-color: #A9B388;
+  color: #FEFAE0;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #3498db;
+}
+
+.main{
+ color: #163020;
+}
+
